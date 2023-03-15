@@ -15,7 +15,7 @@ if (rth_is_module_disabled(Constants::MODULE_NAME_SYSTEM)) {
 }
 
 $translations = array(
-    'SHIPPING_TITLE' => 'Versandarten deaktivieren',
+    'SHIPPING_TITLE' => 'Deactivate shipping methods',
 );
 
 foreach ($translations as $key => $value) {

@@ -24,12 +24,12 @@ $translations = array(
                 <li>%s, and</li>
                 <li>%s.</li>
             </ul>',
-            '<a href="/' . DIR_ADMIN . 'modules.php?set=categories&module=grandeljay_disable_shipping">grandeljay_disable_shipping_categories (categories)</a>',
-            '<a href="/' . DIR_ADMIN . 'modules.php?set=checkout&module=grandeljay_disable_shipping">grandeljay_disable_shipping_checkout (checkout)</a>'
+            '<a href="/' . DIR_ADMIN . 'modules.php?set=categories&module=grandeljay_disable_shipping_categories">grandeljay_disable_shipping_categories (categories)</a>',
+            '<a href="/' . DIR_ADMIN . 'modules.php?set=checkout&module=grandeljay_disable_shipping_checkout">grandeljay_disable_shipping_checkout (checkout)</a>'
         )
     ),
     'STATUS_TITLE'     => 'Status',
-    'STATUS_DESC'      => 'Wählen Sie Ja um das Modul zu aktivieren und Nein um es zu deaktivieren.',
+    'STATUS_DESC'      => 'Select Yes to activate the module and No to deactivate it.',
     'TEXT_TITLE'       => 'Disable shipping',
 );
 

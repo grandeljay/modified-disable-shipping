@@ -13,9 +13,9 @@ use Grandeljay\DisableShipping\Constants;
 $translations = array(
     /** Module */
     'TITLE'            => 'grandeljay - Disable shipping',
-    'LONG_DESCRIPTION' => 'Dieses Modul ist Teil vom Disable shipping Modul und sollte den gleichen Aktivierungsstatus haben.',
+    'LONG_DESCRIPTION' => 'This module is part of the Disable shipping module and should have the same activation status.',
     'STATUS_TITLE'     => 'Status',
-    'STATUS_DESC'      => 'Wählen Sie Ja um das Modul zu aktivieren und Nein um es zu deaktivieren.',
+    'STATUS_DESC'      => 'Select Yes to activate the module and No to deactivate it.',
     'TEXT_TITLE'       => 'Disable shipping',
 );
 
