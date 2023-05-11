@@ -12,7 +12,7 @@ namespace Grandeljay\DisableShipping;
 
 class Constants
 {
-    public const MODULE_VERSION         = '0.1.0';
+    public const MODULE_VERSION         = '0.1.1';
     public const MODULE_NAME_CATEGORIES = 'MODULE_CATEGORIES_GRANDELJAY_DISABLE_SHIPPING_CATEGORIES';
     public const MODULE_NAME_CHECKOUT   = 'MODULE_CHECKOUT_GRANDELJAY_DISABLE_SHIPPING_CHECKOUT';
     public const MODULE_NAME_SYSTEM     = 'MODULE_SYSTEM_GRANDELJAY_DISABLE_SHIPPING_SYSTEM';
