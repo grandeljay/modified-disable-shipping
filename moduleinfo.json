@@ -22,5 +22,11 @@
         "psr-4": {
             "Grandeljay\\DisableShipping\\": "src-mmlc"
         }
+    },
+    "php": {
+        "version": "^8.0.0"
+    },
+    "mmlc": {
+        "version": "^1.21.0"
     }
 }
