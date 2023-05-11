@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Grandeljay\\": "/vendor-no-composer/grandeljay"
+            "Grandeljay\\DisableShipping\\": "src-mmlc"
         }
     }
 }
