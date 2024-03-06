@@ -34,7 +34,7 @@ class grandeljay_disable_shipping_system extends StdModule
     {
         parent::install();
 
-        foreach (array(\TABLE_PRODUCTS, \TABLE_CATEGORIES) as $table) {
+        foreach ([\TABLE_PRODUCTS, \TABLE_CATEGORIES] as $table) {
             xtc_db_query(
                 sprintf(
                     'ALTER TABLE `%s`
@@ -61,7 +61,7 @@ class grandeljay_disable_shipping_system extends StdModule
     {
         parent::remove();
 
-        foreach (array(\TABLE_PRODUCTS, \TABLE_CATEGORIES) as $table) {
+        foreach ([\TABLE_PRODUCTS, \TABLE_CATEGORIES] as $table) {
             xtc_db_query(
                 sprintf(
                     'ALTER TABLE `%s`

@@ -10,7 +10,7 @@
 
 namespace Grandeljay\DisableShipping;
 
-if (rth_is_module_disabled(Constants::MODULE_NAME_SYSTEM)) {
+if (\rth_is_module_disabled(Constants::MODULE_NAME_SYSTEM)) {
     return;
 }
 

@@ -10,14 +10,14 @@
 
 use Grandeljay\DisableShipping\Constants;
 
-$translations = array(
+$translations = [
     /** Module */
     'TITLE'            => 'grandeljay - Disable shipping',
     'LONG_DESCRIPTION' => 'Questo modulo fa parte del modulo Disattiva spedizione e dovrebbe avere lo stesso stato di attivazione.',
     'STATUS_TITLE'     => 'Stato',
     'STATUS_DESC'      => 'Selezioni Sì per attivare il modulo e No per disattivarlo.',
     'TEXT_TITLE'       => 'Disable shipping',
-);
+];
 
 foreach ($translations as $key => $value) {
     $constant = Constants::MODULE_NAME_CHECKOUT . '_' . $key;

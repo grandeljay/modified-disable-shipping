@@ -84,7 +84,7 @@ class grandeljay_disable_shipping_checkout extends StdModule
 
     private function get_disabled_methods(array $product_or_category_data): array
     {
-        $unallowed_modules = array();
+        $unallowed_modules = [];
         $disable_methods   = json_decode($product_or_category_data[Constants::TABLE_COLUMN], true);
 
         foreach ($disable_methods as $method => $data) {

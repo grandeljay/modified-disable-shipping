@@ -15,10 +15,6 @@
 use Grandeljay\DisableShipping\Constants;
 use RobinTheHood\ModifiedStdModule\Classes\StdModule;
 
-if (rth_is_module_disabled(Constants::MODULE_NAME_SYSTEM) || rth_is_module_disabled(Constants::MODULE_NAME_CATEGORIES)) {
-    return;
-}
-
 class grandeljay_disable_shipping_categories extends StdModule
 {
     public const VERSION = Constants::MODULE_VERSION;

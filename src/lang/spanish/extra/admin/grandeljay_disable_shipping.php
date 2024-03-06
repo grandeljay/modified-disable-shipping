@@ -14,9 +14,9 @@ if (rth_is_module_disabled(Constants::MODULE_NAME_SYSTEM)) {
     return;
 }
 
-$translations = array(
+$translations = [
     'SHIPPING_TITLE' => 'Desactivar métodos de envío',
-);
+];
 
 foreach ($translations as $key => $value) {
     $constant = Constants::MODULE_NAME_SYSTEM . '_' . $key;
