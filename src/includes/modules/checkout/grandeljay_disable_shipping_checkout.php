@@ -66,8 +66,10 @@ class grandeljay_disable_shipping_checkout extends StdModule
             $product_query = xtc_db_query(
                 sprintf(
                     'SELECT *
-                       FROM `%1$s`',
+                       FROM `%1$s`
+                      WHERE products_id = %2$d',
                     \TABLE_PRODUCTS,
+                    $product_id
                 )
             );
             $product       = xtc_db_fetch_array($product_query);
