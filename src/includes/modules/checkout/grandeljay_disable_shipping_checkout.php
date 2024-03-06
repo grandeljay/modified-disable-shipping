@@ -96,7 +96,7 @@ class grandeljay_disable_shipping_checkout extends StdModule
         return $unallowed_modules;
     }
 
-    protected function updateSteps()
+    protected function updateSteps(): int
     {
         if (-1 === version_compare($this->getVersion(), self::VERSION)) {
             $this->setVersion(self::VERSION);
