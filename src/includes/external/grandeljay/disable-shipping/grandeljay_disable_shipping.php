@@ -61,11 +61,17 @@ if (isset($pInfo->$table_column)) {
     <tbody>
         <?php
         foreach (auto_include($module_directory, $module_extension) as $file) {
-            $class    = pathinfo($file, PATHINFO_FILENAME);
-            $filename = $class . '.' . $module_extension;
+            $class             = pathinfo($file, PATHINFO_FILENAME);
+            $filename          = $class . '.' . $module_extension;
+            $filepath_language = DIR_FS_LANGUAGES . $_SESSION['language'] . '/modules/shipping/' . $filename;
+            $filepath_module   = $module_directory . $filename;
 
-            require_once DIR_FS_LANGUAGES . $_SESSION['language'] . '/modules/shipping/' . $filename;
-            require_once $module_directory . $filename;
+            if (!\file_exists($filepath_language)) {
+                continue;
+            }
+
+            require_once $filepath_language;
+            require_once $filepath_module;
 
             $module = new $class();
 
